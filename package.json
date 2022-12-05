@@ -1,0 +1,32 @@
+{
+  "name": "harlon-theme",
+  "displayName": "Harlon Theme",
+  "description": "Harlon Dark Theme",
+  "version": "0.0.1",
+  "publisher": "Harlon",
+  "repository": {
+    "url": "https://github.com/HarlonGarcia/harlon-dark-theme",
+    "type": "git"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "dark theme",
+    "harlon"
+  ],
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Harlon Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Harlon Theme-color-theme.json"
+      }
+    ]
+  }
+}
